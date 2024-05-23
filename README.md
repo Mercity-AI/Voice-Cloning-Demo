@@ -2,6 +2,10 @@
 
 
 
+https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/267accb8-2166-4c1f-b5cb-a586ced2f0e0
+
+
+
 This repository contains a dynamic text-to-speech cloning application built with Streamlit and the Bark TTS model. This project allows users to upload an audio file, clone the voice, and generate speech from the provided text input. The application is designed to be user-friendly and provides functionalities to upload audio, generate speech, and download the generated audio file.
 
 ## Table of Contents
