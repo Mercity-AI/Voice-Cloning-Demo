@@ -136,7 +136,10 @@ Saves the synthesized speech to a WAV file. The sample rate is set to 24,000 Hz.
 
 
 ## Voice Sample
-
+<audio controls>
+  <source src="Output.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
 
 
