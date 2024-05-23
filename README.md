@@ -141,6 +141,7 @@ Saves the synthesized speech to a WAV file. The sample rate is set to 24,000 Hz.
 
 
 
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
