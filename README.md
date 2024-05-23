@@ -1,5 +1,7 @@
 # Dynamic Text-to-Speech Cloning
 
+
+
 This repository contains a dynamic text-to-speech cloning application built with Streamlit and the Bark TTS model. This project allows users to upload an audio file, clone the voice, and generate speech from the provided text input. The application is designed to be user-friendly and provides functionalities to upload audio, generate speech, and download the generated audio file.
 
 ## Table of Contents
@@ -121,35 +123,22 @@ Saves the synthesized speech to a WAV file. The sample rate is set to 24,000 Hz.
 
 ## Diagram
 
-![Diagram](images/diagram.png)
+![Flow code](https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/ddc9f11f-1947-4b7a-a6c4-f8ff5a57a801)
+
+
 
 ## Screenshot
+<img width="1395" alt="Screenshot 2024-05-23 at 3 10 18 PM" src="https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/c46162bb-b857-45b5-a2c0-e89270918171">
 
-![Screenshot](images/screenshot.png)
 
-## Voice Samples
+## Voice Sample
 
-### Sample 1
-<audio controls>
-  <source src="samples/sample1.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
 
-### Sample 2
-<audio controls>
-  <source src="samples/sample2.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 To run this app, save it to a file (e.g., `app.py`) and run `streamlit run app.py` in your terminal.
 
