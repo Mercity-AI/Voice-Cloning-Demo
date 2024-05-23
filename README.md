@@ -1,9 +1,8 @@
+
 # Dynamic Text-to-Speech Cloning
 
 
-
-https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/267accb8-2166-4c1f-b5cb-a586ced2f0e0
-
+https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/632c7804-1bca-4102-91ca-75908a22b640
 
 
 This repository contains a dynamic text-to-speech cloning application built with Streamlit and the Bark TTS model. This project allows users to upload an audio file, clone the voice, and generate speech from the provided text input. The application is designed to be user-friendly and provides functionalities to upload audio, generate speech, and download the generated audio file.
@@ -37,7 +36,7 @@ The dynamic text-to-speech cloning application leverages the power of the Bark T
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mercity-AI/Voice-Cloning-Demo.git
-   cd dynamic-text-to-speech-cloning
+   cd Voice-Cloning-Demo
    ```
 
 2. Install the required packages:
@@ -60,9 +59,7 @@ The dynamic text-to-speech cloning application leverages the power of the Bark T
 
 ## Explanation of Code
 
-Building a voice cloning pipeline involves setting up a system that can take an audio input of a speaker's voice and generate new speech that mimics the same voice by matching with the text given by the user. 
-
-Below is an iPython script that uses the TTS library to perform voice cloning. It initializes a text-to-speech (TTS) model, loads a pre-trained model checkpoint, and synthesizes speech using an input text and a specific speaker's voice characteristics extracted from audio files. Here's a detailed explanation of each part of the code and the purpose of the libraries used:
+Building a voice cloning pipeline involves setting up a system that can take an audio input of a speaker's voice and generate new speech that mimics the same voice by matching with the text given by the user.
 
 ### Importing Libraries
 
@@ -75,8 +72,7 @@ import os
 
 The TTS library is a powerful tool for text-to-speech conversion. It supports multiple TTS models, including Bark. These imports specifically bring in the configuration and model components required to set up and use the Bark TTS model.
 
-SciPy is a scientific computing library in Python. Here, it is used to save the generated speech waveform to an audio file.
-`write_wav`: This function writes a NumPy array to a WAV file, which is a common format for storing audio data.
+SciPy is a scientific computing library in Python. Here, it is used to save the generated speech waveform to an audio file. The `write_wav` function writes a NumPy array to a WAV file, which is a common format for storing audio data.
 
 The OS library provides a way to interact with the operating system. It is used for handling directory paths and file management.
 
@@ -129,28 +125,24 @@ Saves the synthesized speech to a WAV file. The sample rate is set to 24,000 Hz.
 
 ![Flow code](https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/ddc9f11f-1947-4b7a-a6c4-f8ff5a57a801)
 
-
-
 ## Screenshot
+
 <img width="1395" alt="Screenshot 2024-05-23 at 3 10 18 PM" src="https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/c46162bb-b857-45b5-a2c0-e89270918171">
 
+## Voice Samples
 
-## Voice Sample
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/your-track-id&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+To listen to the generated speech sample, click the play button below:
 
-
-
-
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123456789&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
 
 
-To run this app, save it to a file (e.g., `app.py`) and run `streamlit run app.py` in your terminal.
 
-### Diagram and Screenshot
+### Notes:
+- Replace `123456789` in the iframe `src` URL with the actual track ID from your SoundCloud embed code.
+- Ensure that the images (`diagram.png` and `screenshot.png`) are properly placed in your repository, and their paths in the markdown are correct.
 
-Please add the diagram image (`diagram.png`) and screenshot image (`screenshot.png`) in the repository directory where the README is located. Additionally, ensure that the voice samples (`sample1.wav` and `sample2.wav`) are added to the 'samples' directory.
-
-This README provides a comprehensive overview of the project, including setup instructions, usage guidelines, and additional resources. For any questions or further assistance, feel free to contact us or open an issue on GitHub.
+This way, your README will look clean and professional, with embedded audio, images, and well-structured sections.
