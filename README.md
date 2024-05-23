@@ -136,16 +136,15 @@ To listen to the generated speech sample, click the play button below:
 Sample-1:
 https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/c44ec7ab-c91b-4888-9e5a-73b5860360ba
 
+Sample-2:
+
+
+https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/900fe658-2819-4d7d-8f87-30d6d7219e7e
+
+
 
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
 
-
-
-### Notes:
-- Replace `123456789` in the iframe `src` URL with the actual track ID from your SoundCloud embed code.
-- Ensure that the images (`diagram.png` and `screenshot.png`) are properly placed in your repository, and their paths in the markdown are correct.
-
-This way, your README will look clean and professional, with embedded audio, images, and well-structured sections.
