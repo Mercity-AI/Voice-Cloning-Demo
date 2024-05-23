@@ -136,10 +136,8 @@ Saves the synthesized speech to a WAV file. The sample rate is set to 24,000 Hz.
 
 
 ## Voice Sample
-<audio controls>
-  <source src="Output.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/your-track-id&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
 
 
 
