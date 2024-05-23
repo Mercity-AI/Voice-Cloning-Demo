@@ -133,7 +133,10 @@ Saves the synthesized speech to a WAV file. The sample rate is set to 24,000 Hz.
 
 To listen to the generated speech sample, click the play button below:
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123456789&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+Sample-1:
+https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/c44ec7ab-c91b-4888-9e5a-73b5860360ba
+
+
 
 ## Contributing
 
