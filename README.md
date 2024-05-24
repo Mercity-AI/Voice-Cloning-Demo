@@ -142,7 +142,7 @@ Sample-2:
 https://github.com/Mercity-AI/Voice-Cloning-Demo/assets/121884337/900fe658-2819-4d7d-8f87-30d6d7219e7e
 
 
-## TO know more about it visit our page - https://www.mercity.ai/blog-post/how-to-build-real-time-voice-cloning-pipelines
+## To know more about it visit our page - https://www.mercity.ai/blog-post/how-to-build-real-time-voice-cloning-pipelines
 
 
 
